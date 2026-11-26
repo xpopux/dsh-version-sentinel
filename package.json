@@ -1,0 +1,15 @@
+{
+  "name": "dsh-version-sentinel",
+  "version": "1.0.0",
+  "keywords": ["dsh-plugin", "deepseek-harness", "updates"],
+  "type": "module",
+  "description": "DSH update notices with stable and prerelease channels and safe side-by-side preparation.",
+  "engines": { "dsh": "0.2.3-alpha.2" },
+  "exports": { ".": "./index.js", "./client": "./client.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["index.js", "updater.js", "client.js", "cordis.patch.yml", "locale", "README.md", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-ui-conversation"] }
+  },
+  "scripts": { "test": "node --test updater.test.js host.test.js" }
+}

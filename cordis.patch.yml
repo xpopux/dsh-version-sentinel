@@ -1,0 +1,4 @@
+- insert:
+    - id: local-dsh-update-center
+      name: dsh-version-sentinel
+      config: {}

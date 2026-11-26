@@ -1,0 +1,1 @@
+{"meta":{"title":"DSH version sentinel","description":"Checks for DSH releases via npm, with npmmirror as a fallback, and separates stable from prerelease versions. A green arrow opens the version list when a newer release is found. On supported npm deployments, an owner may confirm side-by-side download preparation; switching versions is manual."}}
