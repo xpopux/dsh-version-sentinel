@@ -1,6 +1,10 @@
 # DSH Version Sentinel / DSH 版本哨兵
 
-Release: **v1.0** (`1.0.0`). Community plugin; not an official DeepSeek updater.
+**DSH Version Sentinel** is a community plugin that tells you when a newer version of DeepSeek Harness Web is available. It checks npm at startup and falls back to the mainland China npm mirror (npmmirror) if the official registry is unreachable. When it finds an update, a green arrow appears at the bottom of the sidebar. Click it to browse versions and tell stable releases apart from prereleases. Checks run quietly and never install updates or restart DSH.
+
+**[Download v1.0 (.tgz)](https://github.com/xpopux/dsh-version-sentinel/releases/download/v1.0/dsh-version-sentinel-1.0.0.tgz)** · [Release notes](https://github.com/xpopux/dsh-version-sentinel/releases/tag/v1.0)
+
+This community release (`1.0.0`) was tested with the npm installation of **DSH Web `0.2.3-alpha.2` on Windows**. It is not an official DeepSeek updater.
 
 ## Installation
 
